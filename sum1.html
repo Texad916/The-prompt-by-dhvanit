@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: white;
+    }
+    li{
+        list-style: none;
+        margin-top:15em;
+        text-align: center;
+        padding: 0;
+    }
+    a{
+        color:white;
+        background-color: orangered;
+        padding:10px;
+        border-radius: 4px;
+
+    }
+    
+</style>
+<body>
+    
+    <li><a href="sum1.html">enter  numbers Again</a></li>
+</body>
+<script>
+    //(a2 - b2)
+    let a = prompt("Enter your a")
+    let b = prompt("Enter your b")
+     a=Number.parseInt(a)
+     b=Number.parseInt(b)
+
+    if(a>0 && b>0){
+        alert((a**2) - (b**2))
+    }
+     else if(a==0  || b==0){
+        alert((a**2) - (b**2))
+    }
+    else if(a===b){
+        alert(0)
+    }
+    else{
+        alert("enter again or refresh page there can be error")
+    }
+</script>
+</html>
