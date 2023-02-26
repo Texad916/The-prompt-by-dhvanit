@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="Promptlogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cube4</title>
+</head>
+
+<body>
+    <div class="Options">
+        <li class="refresh">
+            <a class="link_" href="cuboid_6.html"> Refresh </a>
+        </li>
+        <li class="refresh">
+            <a class="link_" href="cuboid_6.html"> Re-enter </a>
+        </li>
+        <li class=refresh>
+            <a class=" back" href="index.html">Go to main</a>
+        </li>
+    </div>
+</body>
+<script>
+    let l = prompt("Enter Lenght      ( '  l  ')  ")
+    let b = prompt("ENter 'b'          ")
+    let h = prompt("Enter the h ")
+
+    l = Number.parseInt(l)
+    b = Number.parseInt(b)
+    h = Number.parseInt(h)
+
+    if (h != 0) {
+        alert(2 * h * (l + b))
+    }
+    else if (h == 0) {
+        alert("sorry this is no cuboid this Rectangle and it's area is = " + (l * b))
+    }
+    else if (l == 0 || b == 0) {
+        alert("this type of લંબઘન does not exist")
+    }
+    else if (l == b || b == h ) {
+        alert("this might be a cube('સમઘન')=" + (2 * h * (l + b)))
+    }
+    else {
+        alert(2 * h * (l + b))
+    }
+</script>
+
+</html>

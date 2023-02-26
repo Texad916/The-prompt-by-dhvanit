@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c9a9714f2f.css" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Promptlogo.png">
+    <title>the prompt</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0;
+    }
+
+    body list {
+        margin: 20px;
+    }
+
+    body textarea {
+        margin: 20px;
+        gap: 2em;
+    }
+
+
+    nav {
+        background-color: #0c0e0e;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    nav li {
+        list-style: none;
+        padding: 5px;
+        margin: 3px;
+    }
+
+    nav a {
+        color: azure;
+        padding: 8px;
+        text-decoration: underline #f5f5f5 double 1px;
+        font-size: 18px;
+    }
+
+    nav a:hover {
+        background-color: maroon;
+        border-radius: 3px;
+    }
+
+    #logo {
+        width: 12pc;
+    }
+
+    .textarea {
+        margin: auto;
+        text-align: center;
+        line-height: 2rem;
+        background-color: #f7f7f7;
+    }
+
+    .textarea p {
+        color: yellow;
+        font-size: 2rem;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #0c0e0e;
+    }
+
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #f5f5f544;
+        margin: 10px;
+        align-items: center;
+        gap: 2rem;
+        justify-content: space-evenly;
+    }
+
+    .list li {
+        list-style-type: decimal-leading-zero;
+        list-style: inside;
+        margin: 5px;
+        padding: auto;
+        align-items: center;
+    }
+
+    .list li a {
+        color: aliceblue;
+        background-color: maroon;
+        border-radius: 5px;
+        align-items: center;
+        padding: 8px;
+        margin: 2rem;
+    }
+
+    .list a:hover {
+        background-color: #ad0707;
+        border-radius: 7px;
+        transition: all ease-out 0.2s;
+    }
+
+    #tricks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 1pc;
+    }
+
+    .shapes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 1pc;
+
+    }
+
+    footer {
+        background-color: #0c0e0e;
+        max-width: 99%
+    }
+
+    .footarea {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+
+    .footarea img {
+        width: 14rem;
+    }
+
+    .footarea ul {
+        margin: 0.4em;
+        font-size: 2ex;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .footarea ul h4 {
+        text-shadow: 0.1pc .2pc .2pc #8a8a84;
+        text-align: end;
+        padding-right: 2pc;
+        font-size: xx-large;
+    }
+
+
+    .footarea li {
+        list-style: none;
+        text-align: end;
+        padding-right: 2pc;
+        color: bisque;
+    }
+
+    @media only screen and (max-width:800px) {
+        body {
+            width: fit-content;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            padding-top: 20px;
+            font-size: x-small;
+        }
+
+
+        .shapes {
+            padding-bottom: 2em;
+            word-wrap: break-word;
+            text-align: center;
+            gap: 0.3em;
+        }
+
+        .shapes li {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            margin-left: 0;
+            margin-right: 0;
+            word-spacing: 1px;
+            word-wrap: break-word;
+            word-break: keep-all;
+            text-align: center;
+        }
+
+        .shapes li a {
+            font-size: 18px;
+            padding: 3pt;
+        }
+    }
+</style>
+
+<body>
+    <nav>
+        <ul>
+            <li><img src="Promptlogo.png" alt="THe Prompt" id="logo"></li>
+        </ul>
+        <ul>
+            <li><a href="">complain</a></li>
+        </ul>
+        <ul>
+            <li><a href="">details</a></li>
+        </ul>
+        <ul>
+            <li><a href="">About</a></li>
+        </ul>
+
+    </nav>
+    <div class="textarea">
+        <p id="demo"></p>
+        <h3>
+            Here in Prompt there is big a vaccine of your fear against maths
+        </h3>
+        <h3>
+            Choose sum and get quick solution of it
+        </h3>
+        <h4>
+            If you want more know us on instagram the new sums of your choices will add on every saturnday or sunday
+        </h4>
+        <p id="demo"></p>
+    </div>
+    <div class="list">
+        <section id="tricks">
+            <li><a href="sum1.html" style="padding-left: 20px; padding-right: 20px;">(a<sup>2</sup> - b<sup>2</sup>)</a>
+            </li>
+            <li><a href="sum2.html" style="padding-left: 20px; padding-right: 20px;">( a + b )<sup>2</sup></a></li>
+            <li><a href="sum3.html" style="padding-left: 20px; padding-right: 20px;">( a - b )<sup>2</sup></a></li>
+            <li><a href="sum4.html"> (x + a) (x + b) </a></li>
+        </section>
+
+        <div class="shapes">
+            <li><a href="cuboid_6.html" style="padding-left: 20px; padding-right: 20px;">લંબઘનનું પુષ્ઠફળ</a></li>
+            <li><a href="cuboid4.html">લંબઘનનું પાશ્વ પુષ્ઠફળ</a></li>
+            <li><a href="cube6.html" style="padding-left: 20px; padding-right: 20px;">
+                    સમઘનનું પુષ્ઠફળ</a></li>
+            <li><a href="cube4.html">
+                    સમઘનનું પાશ્વ પુષ્ઠફળ</a></li>
+            <!-- <li><a href="cylinder1.html" >નળાકાળની વક્ર્સપાટીનું ક્ષેત્રફળ(ત્રિજયા)</a></li>
+            <li><a href="cylinder2.html" >નળાકાળની વક્ર્સપાટીનું ક્ષેત્રફળ(વ્યાસ)</a></li> -->
+            <li><a href="cylinder3.html">નળાકાળનું ઘનફળ</a></li>
+
+
+        </div>
+    </div>
+    <footer>
+        <div class="footarea">
+            <ul>
+                <img src="Promptlogo.png" alt="THe prompt.AI" srcset="">
+            </ul>
+            <ul>
+                <li><i class=fa-brands fa-instagram fa-2x"</i></li>
+            </ul>
+            <ul>
+                <h4>Online shop</h4>
+                <li>Newgen Essay Centre</li>
+                <li>The prompt.AI</li>
+                <li>About</li>
+            </ul>
+            <ul>
+                <h4>Get help</h4>
+                <li>Know us How can we </li>
+                <li>Help you!&#128583;</li>
+                <li>contact us on Texad9513 thought instagram<i class=fa-brands fa-instagram fa-2x"> </i></li>
+            </ul>
+            <ul>
+                <h4 id="date"> </h4>
+            </ul>
+            <div>
+    </footer>
+</body>
+<script>
+
+    let text;
+    switch (new Date().getDay()) {
+        case 0:
+            text = "Have a great Sunday";
+            break;
+        case 1:
+            text = "Have a great Monday";
+            break;
+
+        case 2:
+            text = "Have a great tuesnesday";
+            break;
+        case 3:
+            text = "Have a great Wednesday";
+            break;
+
+        case 4:
+            text = "Have a great Thrusday";
+            break;
+        case 5:
+            text = "Have a great Friday";
+            break;
+        case 6:
+            text = "Have a great Saturnday";
+            break;
+
+        default:
+            text = "Looking forward to the Weekend";
+    }
+    document.getElementById("demo").innerHTML = text;
+    
+    const date = new Date();
+document.getElementById("date").innerHTML = date.toDateString()
+document.getElementById("date").style="color:#fff700;"
+
+</script>
+
+</html>

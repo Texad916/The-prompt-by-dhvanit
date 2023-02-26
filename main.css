@@ -1,0 +1,48 @@
+.refresh {
+  padding: 1rem;
+  list-style: none;
+}
+
+.Options {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 20%;
+}
+
+.link_ {
+  color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
+  margin: 1rem;
+  padding: 20px;
+  line-height: 1rem;
+  box-shadow: 1rem 0.5em 0.7rem #3523a9;
+  border-radius: 5px;
+  background-color: #303030ee;
+  transition: 0.3s ease-in-out;
+  touch-action: auto;
+}
+
+.link_:hover {
+  background-color: #3523a9;
+  box-shadow: 1rem 0.5em 0.7rem #303030ee;
+}
+
+.back {
+  color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
+  margin: 1rem;
+  padding: 20px;
+  line-height: 1rem;
+  box-shadow: 1rem 0.5em 0.7rem #3523a9;
+  border-radius: 5px;
+  background-color: #303030ee;
+  transition: 0.3s ease-in-out;
+  touch-action: auto;
+}
+
+.back:hover {
+  background-color: #3523a9;
+  box-shadow: 1rem 0.5em 0.7rem #303030ee;
+}

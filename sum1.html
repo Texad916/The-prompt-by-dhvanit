@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="Promptlogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="Options">
+        <li class="refresh">
+          <a class="link_" href="cuboid_6.html"> Refresh </a>
+        </li>
+        <li class="refresh">
+          <a class="link_" href="cuboid_6.html"> Re-enter </a>
+        </li>
+        <li class=refresh>
+          <a class=" back"  href="index.html">Go to main</a>
+        </li>
+      </div>
+</body>
+<script>
+    //(a2 - b2)
+    let a = prompt("Enter your a")
+    let b = prompt("Enter your b")
+    a = Number.parseInt(a)
+    b = Number.parseInt(b)
+
+    if (a > 0 && b > 0) {
+        alert((a ** 2) - (b ** 2))
+    }
+    else if (a == 0 || b == 0) {
+        alert((a ** 2) - (b ** 2))
+    }
+    else if (a === b) {
+        alert(0)
+    }
+    else {
+        alert("enter again or refresh page there can be error")
+    }
+</script>
+
+</html>
